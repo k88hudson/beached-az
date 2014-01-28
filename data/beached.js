@@ -43,6 +43,9 @@
     v = v.replace(/Chip/g, "Chup");
     v = v.replace(/!/g, ", bru!");
 
+    // Too much
+    // v = v.replace(/i/g, "u");
+
     textNode.nodeValue = v;
   }
   walk(document.body);
